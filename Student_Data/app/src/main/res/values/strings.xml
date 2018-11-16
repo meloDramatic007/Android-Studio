@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Student_Data</string>
+    <string name="name">Enter your name</string>
+    <string name="Email">Enter your Email</string>
+    <string name="Phone">Enter your phone number</string>
+    <string name="department">Enter your department name</string>
+</resources>

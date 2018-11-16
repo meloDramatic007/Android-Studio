@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Random_Calculator</string>
+    <string name="first_number">Enter your first number</string>
+    <string name="second_number">Enter your second number</string>
+    <string name="compare_number">compare</string>
+    <string name="find_prime_number">Enter a number</string>
+    <string name="string">Enter your string</string>
+</resources>

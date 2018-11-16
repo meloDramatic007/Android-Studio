@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">comparison_number</string>
+    <string name="first_number">Enter your first number</string>
+    <string name="second_number">Enter your second number</string>
+    <string name="submit_button">compare</string>
+    <string name="reult">Show Result</string>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">user_info</string>
+    <string name="Name">Enter your name</string>
+    <string name="Email">Enter your Email</string>
+    <string name="Phone">Enter your phone number</string>
+    <string name="Address">Enter your address</string>
+    <string name="Register">Register</string>
+    <string name="Gender_input">Enter your gender</string>
+    <string name="Gender1">Male</string>
+    <string name="Gender2">Female</string>
+    <string name="Gender3">Others</string>
+</resources>

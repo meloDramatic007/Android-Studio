@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="First_Number">Enter your first number</string>
+    <string name="Second_Number">Enter your second Number</string>
+    <string name="AddButton">Add</string>
+    <string name="Result_View">Result</string>
+</resources>
