@@ -1,0 +1,21 @@
+<resources>
+<!-- Base application theme. -->
+
+<style name="NewsReaderStyle" parent="android:Theme.Light.NoTitleBar">
+</style>
+
+
+<style name="NewsReaderStyle_NoActionBar" parent="android:Theme.Light.NoTitleBar">
+</style>
+
+
+<style name="CategoryButtonStyle" parent="@android:style/Widget.Button">
+    
+<item name="android:textColor">#ffffff</item>
+</style>
+
+
+</resources>
+
+
+

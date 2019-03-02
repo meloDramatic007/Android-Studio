@@ -32,6 +32,7 @@
     <string name="parentheses_open">(</string>
     <string name="parentheses_close">)</string>
     <string name="root">"\u221A"</string>
+    <string name="fac">"\u21d9"</string>
     <string name="power">^</string>
     <string name="plus_or_minus">+/<Big>-</Big></string>
     <string name="square">X<sup><small>2</small></sup></string>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000066"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/parentLinearLayout"
+    >
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/IBRgif"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/ibrab"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select your preferred language"
+        android:textSize="20dp"
+        android:textColor="#f4eeee"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="আপনার পছন্দ অনুযায়ী ভাষা নির্বাচন করুন"
+        android:layout_gravity="center"
+        android:textSize="14dp"
+        android:textColor="#e7e1e1"/>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="#f1eced"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:backgroundTint="#000066">
+
+        <ImageView
+            android:id="@+id/EngSelect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btnbang"
+            android:layout_marginRight="50dp"
+            />
+
+        <ImageView
+            android:id="@+id/BanSelect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btneng" />
+    </LinearLayout>
+
+</LinearLayout>

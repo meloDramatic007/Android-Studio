@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+         android:id="@+id/menuID"
+    >
+<group
+     android:id="@+id/myAcount"
+    android:checkableBehavior="single">
+    <item
+        android:colorBackground="@color/colorPrimaryDark"
+        android:icon="@drawable/conversation"
+        android:title="My Account     ⇙"
+        android:id="@+id/myAcountIDItem"
+
+        >
+    </item>
+</group>
+    <group
+        android:id="@+id/Bangla"
+        android:checkableBehavior="single">
+        <item
+            android:colorBackground="@color/colorPrimaryDark"
+            android:icon="@drawable/conversation"
+            android:title="Bangla"
+            android:visible="false"
+            android:id="@+id/BanglaID"
+            >
+        </item>
+    </group>
+    <group
+        android:id="@+id/English"
+        android:checkableBehavior="single"
+        >
+        <item
+            android:icon="@drawable/settings"
+            android:title="English"
+            android:id="@+id/EnglishID"
+            android:visible="false"
+            ></item>
+    </group>
+    <group
+        android:id="@+id/settings"
+        android:checkableBehavior="single"
+        >
+    <item
+        android:icon="@drawable/settings"
+        android:title="Settings"
+        android:id="@+id/settingIDItem"
+        ></item>
+    </group>
+    <group
+        android:id="@+id/logout"
+        android:checkableBehavior="single">
+    <item android:title="Logout"
+        android:icon="@drawable/networking"
+        android:id="@+id/customeID"
+        ></item>
+    </group>
+    <group
+        android:id="@+id/Aboutus"
+        android:checkableBehavior="single">
+    <item android:title="About us"
+        android:icon="@drawable/networking"
+        android:id="@+id/aboutID"></item>
+    </group>
+    <group
+        android:id="@+id/contuctus"
+        android:checkableBehavior="single">
+    <item android:title="Contact us"
+        android:icon="@drawable/networking"
+        android:id="@+id/contactusID"></item>
+    >
+    </group>
+
+</menu>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item
+        android:colorBackground="@color/colorPrimaryDark"
+        android:icon="@drawable/conversation"
+        android:title="My Account"
+        >
+    </item>
+    <item
+        android:icon="@drawable/settings"
+        android:title="Settings"
+        android:id="@+id/setting"
+        ></item>
+    <item android:title="Logout"
+        android:icon="@drawable/networking"
+        android:id="@+id/custome"></item>
+    <item android:title="About us"
+        android:icon="@drawable/networking"
+        android:id="@+id/about"></item>
+    <item android:title="Contact us"
+        android:icon="@drawable/networking"
+        android:id="@+id/none"></item>
+    >
+
+</menu>

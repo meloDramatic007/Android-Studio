@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@mipmap/background_transpas"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/mesh"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:src="@mipmap/giffffff"
+        app:layout_constraintEnd_toStartOf="@+id/brish"
+        app:layout_constraintStart_toStartOf="parent"
+        android:outlineSpotShadowColor="#000"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/brish"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:src="@mipmap/brish"
+
+        app:layout_constraintEnd_toStartOf="@+id/mithun"
+        app:layout_constraintStart_toEndOf="@+id/mesh"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/mithun"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:src="@mipmap/gifaxela"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/brish"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/karkat"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:src="@mipmap/bisho"
+        app:layout_constraintEnd_toStartOf="@+id/singho"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/brish" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/singho"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:src="@mipmap/singh"
+        app:layout_constraintEnd_toStartOf="@+id/kanya"
+        app:layout_constraintStart_toEndOf="@+id/karkat"
+        app:layout_constraintTop_toBottomOf="@+id/brish" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/kanya"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:src="@mipmap/kanya"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/singho"
+        app:layout_constraintTop_toBottomOf="@+id/brish" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/tula"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:src="@mipmap/tula"
+        app:layout_constraintEnd_toStartOf="@+id/brishchik"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/singho" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/brishchik"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:src="@mipmap/brishchik"
+        app:layout_constraintEnd_toStartOf="@+id/dhonu"
+        app:layout_constraintStart_toEndOf="@+id/tula"
+        app:layout_constraintTop_toBottomOf="@+id/singho" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/dhonu"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:src="@mipmap/dhonu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/brishchik"
+        app:layout_constraintTop_toBottomOf="@+id/singho" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/makar"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:src="@mipmap/mokor"
+        app:layout_constraintEnd_toStartOf="@+id/kumbha"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/brishchik" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/kumbha"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:src="@mipmap/kumbho"
+        app:layout_constraintEnd_toStartOf="@+id/meen"
+        app:layout_constraintStart_toEndOf="@+id/makar"
+        app:layout_constraintTop_toBottomOf="@+id/brishchik" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/meen"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:src="@mipmap/meen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/kumbha"
+        app:layout_constraintTop_toBottomOf="@+id/brishchik" />
+
+</android.support.constraint.ConstraintLayout>

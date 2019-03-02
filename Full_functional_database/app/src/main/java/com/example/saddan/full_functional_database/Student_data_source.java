@@ -97,7 +97,7 @@ public class Student_data_source {
                 null,null);
         if(cursor!=null && cursor.getCount()>0)
         {
-            cursor.moveToLast();
+            cursor.moveToFirst();
 
             do {
                 int id = cursor.getInt(0);
@@ -108,7 +108,7 @@ public class Student_data_source {
 
                 Student student = new Student( name, email, phone, address,id);
                 StudentList.add(student);
-            }while (cursor.moveToLast());
+            }while (cursor.moveToNext());
         }
         closeConnection();
         return StudentList;

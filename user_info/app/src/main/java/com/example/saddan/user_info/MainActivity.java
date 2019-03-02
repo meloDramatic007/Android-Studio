@@ -11,6 +11,7 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
 {   EditText name,email,phone,address;
@@ -71,6 +72,7 @@ public class MainActivity extends AppCompatActivity
         if (male.isChecked())
         {
             Gender=male.getText().toString();
+            Toast.makeText(this, "Gender="+Gender, Toast.LENGTH_SHORT).show();
         }
         else if(female.isChecked())
         {

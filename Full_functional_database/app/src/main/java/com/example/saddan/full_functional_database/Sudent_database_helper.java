@@ -34,6 +34,8 @@ public class Sudent_database_helper extends SQLiteOpenHelper
     public void onCreate(SQLiteDatabase db)
     {
               db.execSQL(CREAT_TABLE_STUDENT);
+
+
     }
 
     @Override

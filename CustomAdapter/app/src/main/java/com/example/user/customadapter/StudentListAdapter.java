@@ -13,7 +13,7 @@ import org.w3c.dom.Text;
 
 import java.util.ArrayList;
 
-public class StudentListAdapter extends ArrayAdapter<Student> {
+public class StudentListAdapter extends {
 
     private Context context;
     private ArrayList<Student> studentList;

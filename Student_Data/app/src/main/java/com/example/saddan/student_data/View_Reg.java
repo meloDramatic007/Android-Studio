@@ -18,7 +18,7 @@ public class View_Reg extends AppCompatActivity
         showName=findViewById(R.id.name_id);
         showEmail=findViewById(R.id.email_id);
         showPhone=findViewById(R.id.phone_id);
-        showDepartment=findViewById(R.id.address_id);
+        showDepartment=findViewById(R.id.department_id);
         Intent intent=getIntent();
         String name=intent.getStringExtra("name");
         String email=intent.getStringExtra("email");

@@ -1,5 +1,6 @@
 package com.example.saddan.full_functional_database;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -8,6 +9,12 @@ import android.view.accessibility.AccessibilityManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.google.gson.Gson;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.util.ArrayList;
 
@@ -50,24 +57,28 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
-    public void viewStudent(View view)
-    {
+    public void viewStudent(View view)  {
         Student_data_source student_data_source=new Student_data_source(this);
         ArrayList<Student> studentList=student_data_source.getAllStudent();
 
-        Toast.makeText(this, studentList.size()+"", Toast.LENGTH_SHORT).show();
-        for(Student student:studentList)
-        {
-            Log.d("studentId",student.getId()+"");
-            Log.d("studentName",student.getName());
+        Gson gson=new Gson();
+        String iputString=gson.toJson(studentList);
+        Toast.makeText(this, iputString+"", Toast.LENGTH_SHORT).show();
 
+        if(studentList.size()==0)
+        {
+            Toast.makeText(this, studentList.size() + "", Toast.LENGTH_SHORT).show();
+        }
+      else {
+            Intent intent = new Intent(this, Student_Database_View.class);
+            startActivity(intent);
         }
     }
 
     public void deleteData(View view)
     {
     Student_data_source student_data_source=new Student_data_source(this);
-    boolean deleted=student_data_source.deleteStudent(2);
+    boolean deleted=student_data_source.deleteStudent(3);
     if(deleted)
     {
         Toast.makeText(this, "deleted", Toast.LENGTH_SHORT).show();
