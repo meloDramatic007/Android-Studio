@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Shared_Preferences_Using_Class</string>
+
+    <string name="myLang">My language is English</string>
+</resources>
