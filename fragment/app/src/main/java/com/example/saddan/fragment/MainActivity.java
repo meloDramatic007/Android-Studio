@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity
         firstFragment=findViewById(R.id.firstFragment);
         secondFragment=findViewById(R.id.secondFragment);
         frameLayout=findViewById(R.id.frameLayout);
-        stdn_msg=findViewById(R.id.stdnt_msg);
+        stdn_msg=findViewById(R.id.msgID);
 
         String message=stdn_msg.getText().toString();
         stdn_msg.setText(message);
